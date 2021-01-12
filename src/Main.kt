@@ -21,5 +21,30 @@ fun main() {
     //Instance Objet Robot
     Robot.name = "Guido Leonel Miranda Aviza"
     Robot.dateInit()
+    println("----------------------------------------------------------------------------------------")
+
+    //use of get and set methods
+    //Instance the class
+
+    val dog = Dog()
+    dog.name = "Texa"
+    dog.age = 3
+    dog.colour = "black"
+    println("name ${dog.name}, age ${dog.age}, colour ${dog.colour} ")
+    dog.eat()
+    dog.sleep()
+    dog.bark()
+
+
+    println()
+
+    val lion = Lion()
+    lion.name = "BOM"
+    lion.age = -12
+    lion.colour = "marron"
+    println("name ${lion.name}, age ${lion.age}, colour ${lion.colour} ")
+    lion.eat()
+    lion.sleep()
+    lion.fast()
 
 }
